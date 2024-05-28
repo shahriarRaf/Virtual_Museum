@@ -1,0 +1,51 @@
+/* Add your custom CSS styles here */
+.card {
+    margin-bottom: 20px;
+}
+
+.alert {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    height: 200px; /* Adjust image height as needed */
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+label
+{
+    font-size:1.8em;
+}
+
+.card-text {
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    margin-right: 10px;
+}
+
+.btn-danger {
+    margin-right: 10px;
+}
+/* In your existing CSS file */
+.bg-wheat {
+    background-color: wheat;
+}
+.description 
+{
+    height: 16em;
+    width: 80em;
+}
+form 
+{
+    margin-top: 1em;
+}

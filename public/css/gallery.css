@@ -1,0 +1,9 @@
+/* Add your custom styles here */
+.card {
+    transition: transform 0.3s;
+    margin: 0.8em;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}

@@ -1,0 +1,19 @@
+
+/* Hover effect */
+.nav-link:hover {
+    color: #ff5733; /* Change to your desired color */
+    transition: color 0.3s ease-in-out; /* Smooth color transition */
+}
+
+/* Active link styling */
+.nav-link.active {
+    color: #3eda26; /* Change to your desired color for active link */
+    border-bottom: 4px solid #ff5733; /* Bottom border for active link */
+    transition: color 0.3s ease-in-out, border-bottom 0.3s ease-in-out; /* Smooth transitions */
+}
+
+/* Optional: Add a hover effect to the navbar brand */
+.navbar-brand:hover {
+    color: #ff5733; /* Change to your desired color */
+    transition: color 0.3s ease-in-out; /* Smooth color transition */
+}

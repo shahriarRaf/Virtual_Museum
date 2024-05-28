@@ -1,0 +1,92 @@
+*
+{
+    margin: 0;
+    padding: 0 ;
+
+}
+.header
+{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(17, 17, 55, 0.83);
+    color: white;
+}
+.logout 
+{
+    position: absolute;
+    right: 0%;
+    margin: 1em;
+    
+}
+h1 
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.image-grid img
+{
+    height: 15em;
+}
+.header 
+{
+    border-bottom: 0.05em solid;
+    padding: 1em;
+    border-color: rgba(98, 93, 93, 0.647);
+}
+.image-grid 
+{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+button 
+{
+    padding: 1em;
+    border-radius: 0.6em;
+    border: none  ;
+    background-color: rgb(100, 223, 100);
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+button:hover 
+{
+    /* display: none; */
+    transform: scale(1.1);   
+    transition: transform 0.3s ease-in-out;
+}
+.image-grid 
+{
+    background-color: rgb(231, 228, 224);
+    border-radius: 0.5em;
+    width: 40em;
+    box-shadow: 0px 0px 10px 0px black;
+    padding: 1.5em;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    transition: transform 0.3s ease-in-out;
+}
+.image-grid:hover
+{
+    transform: scale(1.07);
+    transition: transform 0.3s ease-in-out;
+}
+.image-grid-container
+{
+    margin: 1em;
+    flex-direction: column;
+    gap: 1em;
+}
+.form 
+{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+
+}
